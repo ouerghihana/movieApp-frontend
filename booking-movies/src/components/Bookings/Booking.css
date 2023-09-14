@@ -1,0 +1,295 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+
+.body_booking {
+  background: #ecebeb;
+  width: 100%;
+  height: 200vh;
+ 
+}
+
+
+
+.card_booking {
+    
+  width: 850px;
+  height: 500px;
+  background: transparent;
+  position: absolute;
+  left: 0;
+  right: 0px;
+  margin: auto;
+  top: 180px;
+  bottom: 0;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  box-shadow: 0px 20px 30px 3px rgba(0, 0, 0, 0.55);
+}
+
+
+.card_left {
+  width: 50%;
+  height: 560px;
+  float: left;
+  overflow: hidden;
+  background: transparent;
+}
+
+.card_left img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px 0 0 10px;
+  -webkit-border-radius: 10px 0 0 10px;
+  -moz-border-radius: 10px 0 0 10px;
+  position: relative;
+}
+
+.card_right {
+  width: 50%;
+  float: left;
+  background: #ffffff;
+  height: 560px;
+  border-radius: 0 10px 10px 0;
+  -webkit-border-radius: 0 10px 10px 0;
+  -moz-border-radius: 0 10px 10px 0;
+}
+
+.body_booking h1 {
+  color: rgb(202, 175, 19);
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  text-align: center;
+  font-size: 40px;
+  margin: 30px 0 0 0;
+  padding: 0 0 0 40px;
+  letter-spacing: 1px;
+}
+.card_right h1{
+    color: #520404;
+}
+
+.card_right h2 {
+    color: rgb(221, 147, 10);
+    font-family:fantasy;
+    font-weight: 400;
+    text-align: left;
+    font-size: 20px;
+    margin: 20px 0 0 0;
+    padding: 0 0 0 40px;
+    letter-spacing: 1px;
+  }
+
+
+
+
+
+.card_right__details ul {
+  list-style-type: none;
+  padding: 0 0 0 40px;
+  margin: 10px 0 0 0;
+}
+
+.card_right__details ul li {
+  display: inline;
+  color: #091341;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 0 40px 0 0;
+}
+
+.card_right__rating__stars {
+  position: relative;
+  right: 160px;
+  margin: 10px 0 10px 0;
+}
+
+.rating fieldset,
+.rating label {
+  margin: 0;
+  padding: 0;
+}
+
+.rating {
+  border: none;
+}
+
+.rating > input {
+  display: none;
+ 
+}
+
+.rating > label:before {
+  margin: 5px;
+  font-size: 1.25em;
+  display: inline-block;
+  content: "\f005";
+  font-family: FontAwesome;
+}
+
+.rating > .half:before {
+  content: "\f089";
+  position: absolute;
+}
+
+.rating > label {
+  color: #110202;
+  float: right;
+}
+
+.rating > input:checked ~ label,
+.rating:not(:checked) > label:hover,
+.rating:not(:checked) > label:hover ~ label {
+  color: #c91818;
+}
+
+.rating > input:checked + label:hover,
+.rating > input:checked ~ label:hover,
+.rating > label:hover ~ input:checked ~ label {
+  color: #ec9512;
+}
+
+.card_right__review p {
+  color: rgb(0, 0, 0);
+  font-family: 'Montserrat',italic,sans-serif;
+  font-size: 12px;
+  padding: 0 40px 0 40px;
+  letter-spacing: 1px;
+  margin: 10px 0 10px 0;
+  line-height: 20px;
+}
+
+.card_right__review a {
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  padding: 0 0 0 40px;
+  color: #6e6112;
+  margin: 0;
+}
+
+.card_right__button a {
+  color: #110f05;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  border: 2px solid #ffda00;
+  padding: 10px 10px 10px 40px;
+  font-size: 12px;
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/343086/COMdoWZ.png);
+  background-size: 12px 12px;
+  background-repeat: no-repeat;
+  background-position: 7% 50%;
+  border-radius: 5px;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: .5s;
+  transition-duration: .5s;
+}
+
+.card_right__button a:hover {
+  color: #000000;
+  background-color: #ffc400;
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/343086/rFQ5dHA.png);
+  background-size: 12px 12px;
+  background-repeat: no-repeat;
+  background-position: 10% 50%;
+  cursor: pointer;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: .5s;
+  transition-duration: .5s;
+ 
+}
+
+.card_right__button {
+  padding: 0 0 0 40px;
+  margin: 30px 0 0 0;
+}
+.All_input{
+margin-left: 300px;
+margin-top: 100px;
+}
+
+.input_seat {
+    width: 190px;
+    height: 44px;
+    border-radius: .5rem;
+    padding: 0 3rem;
+    border: 2px solid transparent;
+    font-size: 1rem;
+  }
+  
+  .label_seat {
+    display: block;
+    margin-bottom: .3rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #000000ef;
+  }
+ 
+
+
+   
+  .input_seat:hover, .input_seat:focus, .input_seat-group:hover .input_seat {
+    outline: none;
+    border-color: #020202;
+  }
+  
+  .input_seat-group:hover .label, .input_seat:focus {
+    color: #cfb315c2;
+  }
+
+
+  .button_bookNow{
+     background-color: #e2bd1a;
+      margin-left: 50px;
+      margin-top: 20px;
+    border: none;
+    padding: 1rem;
+    font-size: 1rem;
+    width: 10em;
+    border-radius: 1rem;
+    color: rgb(104, 8, 8);
+    box-shadow: 0 0.4rem #dfd9d9;
+    cursor: pointer;
+  }
+
+  .button_bookNow:active {
+    color: white;
+    box-shadow: 0 0.2rem #dfd9d9;
+    transform: translateY(0.2rem);
+   }
+   
+   .button_bookNow:hover:not(:disabled) {
+    background: rgb(230, 181, 48);
+    color: white;
+    text-shadow: 0 0.1rem #bcb4b4;
+   }
+   
+   .button_bookNow:disabled {
+    cursor: auto;
+    color: grey;
+   }
+
+
+
+
+   .success_message {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+  }
+  
+  .success_message p {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  

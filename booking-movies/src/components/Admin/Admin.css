@@ -1,0 +1,21 @@
+.dialog-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 4px;
+  }
+  
+  .dialog-title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .dialog-content {
+    margin-top: 10px;
+  }
+  
+  .dialog-actions {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
